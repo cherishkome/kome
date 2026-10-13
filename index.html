@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#151815">
+  <title>To You, in 153 Days.</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="topbar">
+    <a href="#home" class="brand">SCOUT REGIMENT</a>
+    <span class="classified">CONFIDENTIAL // 001</span>
+  </header>
+
+  <main>
+    <!-- OPENING -->
+    <section class="hero" id="home">
+      <div class="sky"></div>
+      <div class="wall wall-back"></div>
+      <div class="wall wall-front"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">WALL MARIA · PERSONAL ARCHIVE</p>
+        <div class="wings">⚔</div>
+
+        <h1>TO YOU,<br><span>IN 153 DAYS.</span></h1>
+
+        <p class="subtitle">
+          One recipient. One message.<br>
+          A story that continues beyond the walls.
+        </p>
+
+        <a class="main-button" href="#mission">
+          ENTER THE ARCHIVE <span>↗</span>
+        </a>
+
+        <p class="small-note">AUTHORIZED PERSONNEL: RAVERN</p>
+      </div>
+
+      <div class="coordinates">WALL MARIA / 845</div>
+      <div class="vertical-label">HUMANITY WILL RISE AGAIN</div>
+    </section>
+
+    <!-- TIMER -->
+    <section class="mission section" id="mission">
+      <p class="eyebrow">MISSION RECORD · 12 MAY 2026</p>
+      <h2>THE DAY IT ALL BEGAN</h2>
+      <p class="section-copy">
+        Enlistment recorded at approximately 0200 hours.
+        The mission remains ongoing.
+      </p>
+
+      <div class="timer-panel">
+        <div class="timer-heading">
+          <span>ELAPSED MISSION TIME</span>
+          <span class="live-dot">● LIVE</span>
+        </div>
+
+        <div class="timer" aria-live="off">
+          <div><strong id="days">000</strong><span>DAYS</span></div>
+          <div><strong id="hours">00</strong><span>HOURS</span></div>
+          <div><strong id="minutes">00</strong><span>MINUTES</span></div>
+          <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+        </div>
+
+        <div class="timer-bottom">
+          <span>START: 12 MAY · 0200 HRS</span>
+          <span>STATUS: STILL HERE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- AOT HUMOUR -->
+    <section class="archive section" id="archive">
+      <p class="eyebrow">UNOFFICIAL SCOUT RECORDS</p>
+      <h2>REPORTS FROM THE WALLS</h2>
+      <p class="section-copy">
+        Some documents should never have been declassified.
+      </p>
+
+      <div class="joke-grid">
+        <article class="joke">
+          <span class="file-number">FILE 001</span>
+          <h3>TACTICAL INTELLIGENCE</h3>
+          <p>Why doesn't Eren need a GPS?</p>
+          <p class="answer">Because he keeps moving forward.</p>
+        </article>
+
+        <article class="joke">
+          <span class="file-number">FILE 002</span>
+          <h3>SCOUT RECRUITMENT</h3>
+          <p>Recruit: “What's the survival rate?”</p>
+          <p class="answer">Commander: “Sign here first.”</p>
+        </article>
+
+        <article class="joke">
+          <span class="file-number">FILE 003</span>
+          <h3>WALL SECURITY</h3>
+          <p>Security: “Did you hear that?”</p>
+          <p class="answer">The Titan: *smiles in extremely bad news.*</p>
+        </article>
+
+        <article class="joke">
+          <span class="file-number">FILE 004</span>
+          <h3>EMERGENCY BROADCAST</h3>
+          <p>Attention, soldiers. Please remain calm.</p>
+          <p class="answer">The Colossal Titan has entered the group chat.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ENVELOPE -->
+    <section class="letter-section section" id="letter">
+      <p class="eyebrow">SPECIAL DELIVERY · RECIPIENT ONLY</p>
+      <h2>A LETTER BEYOND THE WALLS</h2>
+      <p class="section-copy">
+        A message has survived the journey.<br>
+        Only its intended recipient may open it.
+      </p>
+
+      <div class="recipient">
+        <span>TO:</span> RAVERN / OLULEAN YA
+      </div>
+
+      <button class="envelope-button" id="envelopeButton"
+        aria-label="Open the sealed letter" aria-expanded="false">
+        <div class="envelope" id="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter-paper">
+            <div class="paper-top">PERSONAL CORRESPONDENCE</div>
+            <div class="paper-emblem">⚔</div>
+            <p class="paper-preview">TO MY DEAREST...</p>
+          </div>
+          <div class="envelope-left"></div>
+          <div class="envelope-right"></div>
+          <div class="envelope-bottom"></div>
+          <div class="envelope-flap"></div>
+          <div class="wax-seal">S</div>
+        </div>
+      </button>
+
+      <p class="envelope-instruction" id="envelopeInstruction">
+        [ CLICK THE ENVELOPE TO BREAK THE SEAL ]
+      </p>
+
+      <article class="letter-content" id="letterContent" hidden>
+        <div class="letter-header">
+          <span>SCOUT REGIMENT</span>
+          <span>PERSONAL LETTER</span>
+        </div>
+
+        <p class="letter-date">12 MAY 2026 — AND EVERY DAY AFTER</p>
+
+        <div class="handwritten-letter">
+          <p>hey baby,</p>
+
+          <p>i know i have been hard on you of recent and i am sorry, i hope you know i love you, you’re the reason why i keep going. i pray we make it passed the anger and the pain, i am proud of you, even when you think nobody is watching. i see your efforts, your struggles, i love you Oluleanya and ik you would make it. i believe in you, i believe in us and i believe in whatever we would be, i love you and i hope this makes your day ❤️</p>
+        </div>
+
+        <div class="letter-footer">
+          <span>END OF TRANSMISSION.</span>
+          <span>✦</span>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <div class="footer-emblem">⚔</div>
+      <p>THE EXPEDITION CONTINUES.</p>
+      <span>SCOUT REGIMENT · PERSONNEL FILE: RAVERN</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
